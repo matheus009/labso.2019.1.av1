@@ -17,46 +17,50 @@ Resposta (Cole aqui o(s) comandos utilizados):
 2 - Renomear o arquivo prova1-2019.txt da sua pasta para prova1-seunome.txt 
 (dica de segurnaça: se o arquivo estiver aberto, para garantir que o arquivo não será corrompido, salve e feche-o antes de inciar o comando)
 Ex.: prova1-alex.txt
-Resposta (Cole aqui o(s) comandos utilizados): 
-
-
+Resposta (Cole aqui o(s) comandos utilizados):nano prova1-2019.txt 
+crtl+o
+s
 
 3 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
 sequencia 1, 2 e 3. 
 Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
 Resposta (Cole aqui o(s) comandos utilizados): 
 
-
+touch matheus{1,2,3}.txt
 
 4 - Listar todos os arquivos vazios a partir da sua pasta principal e 
 direcionar a saida para o terceiro arquivo do item anterior.
-Resposta (Cole aqui o(s) comandos utilizados): 
-
-
+Resposta (Cole aqui o(s) comandos utilizados)
+ ls ~ >matheus3.txt
 
 5 - Crie 1 pasta com seu nome+diadenascimento (ex.:alex25) e copie os 
 3 arquivos criandos anteriormente para esta pasta.
 Resposta (Cole aqui o(s) comandos utilizados): 
-
-
-
+mkdir Matheus26
+cp matheus1.txt Matheus26
+cp matheus2.txt Matheus26
+cp matheus3.txt Matheus26
 
 6 - Utilizando wildcards, qual o comando para listar todos os arquivos 
 que comecem com seu nome e termina com o numeral de 1 a 3 com extensão .txt?
-Resposta (Cole aqui o(s) comandos utilizados): 
+Resposta (Cole aqui o(s) comandos utilizados): ls matheus*.txt
 
 
 
 7 - A partir de sua pasta original(item 0), usando o comando find do linux, 
 diga quantos diretórios existem cujo nome começa com "pasta"? 
-Resposta1 (comando linux usado): 
-Resposta2 (numero de diretórios encontrados) :
+Resposta1 (comando linux usado): (comando linux usado): find . -type d -name "pasta*" -printf "." | wc -c 
+Resposta2 (numero de diretórios encontrados) :4
 
 
 
 8 - A partir de sua pasta original(item 0), copiar a pasta1, pasta2 e pasta3 (e seu conteúdo) para 
 uma nova pasta chamada backup-seunome 
-Resposta (Cole aqui o(s) comandos utilizados): 
+Resposta (Cole aqui o(s) comandos utilizados):mkdir backup-matheus
+cp pasta1 backup-matheus
+cp pasta2 backup-matheus
+cp pasta3 backup-matheus
+
 
 
 

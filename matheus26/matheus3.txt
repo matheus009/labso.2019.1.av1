@@ -1,0 +1,20 @@
+Área de Trabalho
+Aula3noite
+demo.txt
+Documentos
+Downloads
+examples.desktop
+Imagens
+labso.2019.1.av1
+linhas1000.py.save
+Modelos
+Música
+novaSemana5
+ola.txt
+Público
+semana3
+semana4
+testeaula1.txt
+testeaula2.txt
+testeaula3.txt
+Vídeos
